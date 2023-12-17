@@ -1,0 +1,150 @@
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.navbar h1 {
+    color: #fff;
+    font-weight: 800;
+}
+
+.navbar {
+    background-color: #16171C;
+    padding: 1em;
+    position: relative;
+}
+
+.navbar .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding: .5em;
+    margin: 0 .5em;
+}
+
+#parent {
+    position: relative;
+}
+
+.white_box {
+    width: 100%;
+    height: 50rem;
+    position: relative;
+  }
+  
+  .image_div {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .image_div img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+  }
+  
+  .starttext {
+    height: 30em;
+    position: absolute;
+    top: 0;
+    margin-top: 15rem;
+    bottom: 0;
+    width: 50rem;
+  }
+
+  .starttext h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 4em;
+    font-weight: 800;
+    color: #16171C;
+  }
+
+  .starttext h5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    margin-left: 4px;
+  }
+
+  .starttextbutton {
+    background-color: #16171C;
+    padding: .7em 1.2em;
+    color: #65D88E;
+    font-size: 1.5em;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+
+  .footer-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #16171C;
+    position: relative;
+}
+
+.footer .container {
+    display: flex;
+    align-items:center;
+    width: 100%;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.footer-item p {
+    padding-left: 1em;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    padding-right: 3.5em;
+    font-weight: 500;
+}
+
+.footer-item img {
+    height: 1.5em;
+}
+
+.footer h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 1.5em;
+}
+
+.footer h5 {
+    color: #898989;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}

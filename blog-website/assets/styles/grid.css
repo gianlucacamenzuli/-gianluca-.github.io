@@ -24,9 +24,8 @@
 
 /* This class adds a wildcard to affect all other classes that start with 'col-' */
 .container .row [class*="col-"]{
-    background-color: #ddd;
     margin : 0 .5rem;
-    padding: .5rem;
+
 }
 
 /* 
@@ -77,10 +76,6 @@
 
 .container .row .col-11{
     width: calc(11 / 12 * 100% - 1rem);
-}
-
-.container .row .col-2{
-    width: calc(2 / 12 * 100% - 1rem);
 }
 
 .container .row .col-12{
