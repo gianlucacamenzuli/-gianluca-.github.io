@@ -19,8 +19,8 @@
 .container .row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -.5rem;
-    margin-right: -.5rem;
+    margin-left: -.5em;
+    margin-right: -.5em;
 }
 
 /* This class adds a wildcard to affect all other classes that start with 'col-' */
