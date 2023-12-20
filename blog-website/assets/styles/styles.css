@@ -13,6 +13,13 @@ h1 {
     color: #16171C;
 }
 
+p {
+    color: #16171C;
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: justify;
+}
+
 .nav-header {
     color: #fff;
     font-weight: 800;
@@ -300,7 +307,7 @@ h1 {
     background-color: #fff;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.3), 0 6px 20px 0 rgba(187, 187, 187, 0.3);
     margin-top: 3rem;
     height: 21rem;
 }
@@ -360,7 +367,7 @@ h1 {
 
 .blog-end-section {
     border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.3), 0 6px 20px 0 rgba(187, 187, 187, 0.3);
     margin-top: 3rem;
     background-color: #3D44B3;
     padding: 3.5rem 4rem;
@@ -370,6 +377,7 @@ h1 {
 .blog-end-section h2 {
     color: #65D88E;
     font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .blog-end-section a {
@@ -381,4 +389,66 @@ h1 {
 .blog-end-section a:hover{
     background-color: #fff;
     color: #3D44B3;
+}
+
+.blog-background {
+    background-image: url(../images/about_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.blog-page {
+    background-color: #fff;
+    margin-top: 10rem;
+    padding: 4rem 5rem;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.1), 0 6px 20px 0 rgba(187, 187, 187, 0.1);
+}
+
+.blog-page img {
+    width: 100%;
+    margin: 2.5rem 0rem 3.5rem 0rem;
+    border-radius: 20px;
+    
+}
+
+.blog-page img:hover {
+    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.1), 0 6px 20px 0 rgba(187, 187, 187, 0.1);
+}
+
+.blog-page h4 {
+    color: #898989;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.blog-page h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 4em;
+    font-weight: 800;
+    color: #16171C;
+}
+
+
+.back{
+    color: #898989;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: right;
+}
+
+.blog-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.blog-bottom a:hover{
+    color: #65D88E;
 }
