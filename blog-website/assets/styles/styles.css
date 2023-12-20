@@ -452,3 +452,129 @@ p {
 .blog-bottom a:hover{
     color: #65D88E;
 }
+
+.contact-form input, 
+.contact-form select,
+.contact-form textarea{
+    display: block;
+    width: 100%;
+}
+
+
+.contact-form input,
+.contact-form select {
+    border: 1px solid #16171C;
+    padding: .5em 1em;
+    border-radius: 8px;
+    margin: .5rem 0rem;
+    height: 3rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    border: 1px solid #16171C;
+    padding: .8em 1em;
+    border-radius: 8px;
+    margin: .5rem 0rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+}
+
+
+.contact-form :invalid{
+    border-color: #898989;
+    color:#898989;
+}
+
+.contact-form :invalid::placeholder{
+    color:#898989;
+}
+
+
+.contact-background {
+    background-image: url(../images/about_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.contact-page {
+    background-color: #fff;
+    margin-top: 10rem;
+    padding: 4rem 5rem;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.1), 0 6px 20px 0 rgba(187, 187, 187, 0.1);
+}
+
+.contact-page h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 4em;
+    font-weight: 800;
+    color: #16171C;
+    margin-bottom: 2rem;
+}
+
+.contact-bottom {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.contact-form button{
+    cursor: pointer;
+    padding:.8em;
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+    border: none;
+    padding: .7em 1.2em;
+    font-size: 1.4em;
+    border-radius: 50px;
+    height: 4rem;
+}
+
+.contact-form button.submit{
+    background-color: #3D44B3;
+    width: 8rem;
+}
+
+.contact-form button.clear{
+    background: none;
+    color: #898989;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-left: .5rem;
+    padding-right: 0;
+}
+
+
+.contact-buttons {
+    display: flex;
+}
+
+
+.contact-bottom a {
+    color: #16171C;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contact-bottom a:hover{
+    color: #65D88E;
+}
+
+.contact-form button.clear:hover {
+    color: #16171C;
+}
+
+.contact-form button.submit:hover {
+    background-color: #65D88E;
+    color: #16171C;
+}
