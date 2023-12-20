@@ -190,17 +190,47 @@ p {
 
 .image-table {
     display: flex;
+    width: 100%;
 }
 
-.image-table img {
+
+.image-overlay {
+    position: relative;
+    display: inline-block;
     max-width: 50%;
-    max-height: 50%;
     min-width: 50%;
-    object-fit: cover;
+    height: auto;
+    
 }
 
-.image-table img:hover{
-    filter: brightness(25%);
+.image {
+    display: block;  
+    width: 100%;
+    object-fit: cover;
+    min-height: 100%;
+    
+}
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #65D88E;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-overlay:hover .overlay-text {
+    opacity: 1;
+}
+
+.image-overlay:hover .image {
+    filter: brightness(30%);
 }
 
 .home-end-section {
