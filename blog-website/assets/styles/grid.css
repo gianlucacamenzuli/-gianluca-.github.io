@@ -1,21 +1,15 @@
-/* CSS RESET */
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
-/* This class will be used for the larger Div that will contain all the content of the page */
 .container {
     margin: auto;
     max-width: 1140px;
     padding: 0 1rem;
 }
 
-/* 
-    This class will be used to split the container into horizontal sections, rows 
-    It is only applied if an element has the 'row' class and is inside an element with the 'container' class
-*/
 .container .row{
     display: flex;
     flex-wrap: wrap;
@@ -23,18 +17,12 @@
     margin-right: -.5em;
 }
 
-/* This class adds a wildcard to affect all other classes that start with 'col-' */
 .container .row [class*="col-"]{
     margin : 0 .5rem;
 
 }
 
-/* 
-    The following classes all specify the width for different sizes
-    The 'calc' function is used to automatically 
-    Through these classes, we are splitting our web page into 12 equal parts
-    Then we can use these classes so that Divs can use up 1 or more of these parts 
-*/
+
 .container .row .col-1{
     width: calc(1 / 12 * 100% - 1rem);
 }
